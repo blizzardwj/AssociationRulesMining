@@ -1,0 +1,82 @@
+Apriori
+
+Parameter specification:
+ confidence minval smax arem  aval originalSupport support minlen maxlen target   ext
+        0.5    0.1    1 none FALSE            TRUE     0.1      3      8  rules FALSE
+
+Algorithmic control:
+ filter tree heap memopt load sort verbose
+    0.1 TRUE TRUE  FALSE TRUE   -1    TRUE
+
+Absolute minimum support count: 12 
+
+set item appearances ...[2 item(s)] done [0.00s].
+set transactions ...[11 item(s), 120 transaction(s)] done [0.00s].
+sorting and recoding items ... [10 item(s)] done [0.00s].
+creating transaction tree ... done [0.00s].
+checking subsets of size 1 2 3 4 5 6 done [0.00s].
+writing ... [62 rule(s)] done [0.00s].
+creating S4 object  ... done [0.00s].
+   lhs                                       rhs         support   confidence lift    
+1  {lumbar,urine}                         => {nephritis} 0.3333333 1.0000000  2.400000
+2  {micturition,urine}                    => {bladder}   0.4083333 1.0000000  2.033898
+3  {urethra,urine}                        => {bladder}   0.2416667 0.5800000  1.179661
+4  {high,urine}                           => {bladder}   0.1583333 0.6333333  1.288136
+5  {low,urine}                            => {bladder}   0.2500000 1.0000000  2.033898
+6  {nausea,urine}                         => {bladder}   0.1583333 1.0000000  2.033898
+7  {urethra,urine}                        => {nephritis} 0.2500000 0.6000000  1.440000
+8  {high,urine}                           => {nephritis} 0.2500000 1.0000000  2.400000
+9  {nausea,urine}                         => {nephritis} 0.1583333 1.0000000  2.400000
+10 {lumbar,micturition}                   => {bladder}   0.1583333 0.6551724  1.332554
+11 {lumbar,micturition}                   => {nephritis} 0.2416667 1.0000000  2.400000
+12 {lumbar,nausea}                        => {bladder}   0.1583333 0.6551724  1.332554
+13 {lumbar,urethra}                       => {nephritis} 0.2500000 1.0000000  2.400000
+14 {high,lumbar}                          => {nephritis} 0.3333333 1.0000000  2.400000
+15 {lumbar,nausea}                        => {nephritis} 0.2416667 1.0000000  2.400000
+16 {micturition,urethra}                  => {bladder}   0.2416667 1.0000000  2.033898
+17 {high,micturition}                     => {bladder}   0.1583333 0.6551724  1.332554
+18 {low,micturition}                      => {bladder}   0.1666667 1.0000000  2.033898
+19 {micturition,nausea}                   => {bladder}   0.1583333 0.6551724  1.332554
+20 {high,micturition}                     => {nephritis} 0.2416667 1.0000000  2.400000
+21 {micturition,nausea}                   => {nephritis} 0.2416667 1.0000000  2.400000
+22 {high,nausea}                          => {bladder}   0.1583333 0.6551724  1.332554
+23 {high,urethra}                         => {nephritis} 0.1666667 1.0000000  2.400000
+24 {high,nausea}                          => {nephritis} 0.2416667 1.0000000  2.400000
+25 {lumbar,micturition,urine}             => {bladder}   0.1583333 1.0000000  2.033898
+26 {lumbar,micturition,urine}             => {nephritis} 0.1583333 1.0000000  2.400000
+27 {high,lumbar,urine}                    => {bladder}   0.1583333 0.6333333  1.288136
+28 {lumbar,nausea,urine}                  => {bladder}   0.1583333 1.0000000  2.033898
+29 {lumbar,urethra,urine}                 => {nephritis} 0.2500000 1.0000000  2.400000
+30 {high,lumbar,urine}                    => {nephritis} 0.2500000 1.0000000  2.400000
+31 {lumbar,nausea,urine}                  => {nephritis} 0.1583333 1.0000000  2.400000
+32 {micturition,urethra,urine}            => {bladder}   0.2416667 1.0000000  2.033898
+33 {high,micturition,urine}               => {bladder}   0.1583333 1.0000000  2.033898
+34 {low,micturition,urine}                => {bladder}   0.1666667 1.0000000  2.033898
+35 {micturition,nausea,urine}             => {bladder}   0.1583333 1.0000000  2.033898
+36 {high,micturition,urine}               => {nephritis} 0.1583333 1.0000000  2.400000
+37 {micturition,nausea,urine}             => {nephritis} 0.1583333 1.0000000  2.400000
+38 {high,nausea,urine}                    => {bladder}   0.1583333 1.0000000  2.033898
+39 {high,urethra,urine}                   => {nephritis} 0.1666667 1.0000000  2.400000
+40 {high,nausea,urine}                    => {nephritis} 0.1583333 1.0000000  2.400000
+41 {high,lumbar,micturition}              => {bladder}   0.1583333 0.6551724  1.332554
+42 {lumbar,micturition,nausea}            => {bladder}   0.1583333 0.6551724  1.332554
+43 {high,lumbar,micturition}              => {nephritis} 0.2416667 1.0000000  2.400000
+44 {lumbar,micturition,nausea}            => {nephritis} 0.2416667 1.0000000  2.400000
+45 {high,lumbar,nausea}                   => {bladder}   0.1583333 0.6551724  1.332554
+46 {high,lumbar,urethra}                  => {nephritis} 0.1666667 1.0000000  2.400000
+47 {high,lumbar,nausea}                   => {nephritis} 0.2416667 1.0000000  2.400000
+48 {high,micturition,nausea}              => {bladder}   0.1583333 0.6551724  1.332554
+49 {high,micturition,nausea}              => {nephritis} 0.2416667 1.0000000  2.400000
+50 {high,lumbar,micturition,urine}        => {bladder}   0.1583333 1.0000000  2.033898
+51 {lumbar,micturition,nausea,urine}      => {bladder}   0.1583333 1.0000000  2.033898
+52 {high,lumbar,micturition,urine}        => {nephritis} 0.1583333 1.0000000  2.400000
+53 {lumbar,micturition,nausea,urine}      => {nephritis} 0.1583333 1.0000000  2.400000
+54 {high,lumbar,nausea,urine}             => {bladder}   0.1583333 1.0000000  2.033898
+55 {high,lumbar,urethra,urine}            => {nephritis} 0.1666667 1.0000000  2.400000
+56 {high,lumbar,nausea,urine}             => {nephritis} 0.1583333 1.0000000  2.400000
+57 {high,micturition,nausea,urine}        => {bladder}   0.1583333 1.0000000  2.033898
+58 {high,micturition,nausea,urine}        => {nephritis} 0.1583333 1.0000000  2.400000
+59 {high,lumbar,micturition,nausea}       => {bladder}   0.1583333 0.6551724  1.332554
+60 {high,lumbar,micturition,nausea}       => {nephritis} 0.2416667 1.0000000  2.400000
+61 {high,lumbar,micturition,nausea,urine} => {bladder}   0.1583333 1.0000000  2.033898
+62 {high,lumbar,micturition,nausea,urine} => {nephritis} 0.1583333 1.0000000  2.400000

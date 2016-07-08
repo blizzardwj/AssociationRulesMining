@@ -1,0 +1,25 @@
+   lhs                      rhs         support   confidence lift    
+1  {lumbar,urine}        => {nephritis} 0.3333333 1.0000000  2.400000
+8  {high,urine}          => {nephritis} 0.2500000 1.0000000  2.400000
+9  {nausea,urine}        => {nephritis} 0.1583333 1.0000000  2.400000
+11 {lumbar,micturition}  => {nephritis} 0.2416667 1.0000000  2.400000
+13 {lumbar,urethra}      => {nephritis} 0.2500000 1.0000000  2.400000
+14 {high,lumbar}         => {nephritis} 0.3333333 1.0000000  2.400000
+15 {lumbar,nausea}       => {nephritis} 0.2416667 1.0000000  2.400000
+20 {high,micturition}    => {nephritis} 0.2416667 1.0000000  2.400000
+21 {micturition,nausea}  => {nephritis} 0.2416667 1.0000000  2.400000
+23 {high,urethra}        => {nephritis} 0.1666667 1.0000000  2.400000
+24 {high,nausea}         => {nephritis} 0.2416667 1.0000000  2.400000
+2  {micturition,urine}   => {bladder}   0.4083333 1.0000000  2.033898
+5  {low,urine}           => {bladder}   0.2500000 1.0000000  2.033898
+6  {nausea,urine}        => {bladder}   0.1583333 1.0000000  2.033898
+16 {micturition,urethra} => {bladder}   0.2416667 1.0000000  2.033898
+18 {low,micturition}     => {bladder}   0.1666667 1.0000000  2.033898
+7  {urethra,urine}       => {nephritis} 0.2500000 0.6000000  1.440000
+10 {lumbar,micturition}  => {bladder}   0.1583333 0.6551724  1.332554
+12 {lumbar,nausea}       => {bladder}   0.1583333 0.6551724  1.332554
+17 {high,micturition}    => {bladder}   0.1583333 0.6551724  1.332554
+19 {micturition,nausea}  => {bladder}   0.1583333 0.6551724  1.332554
+22 {high,nausea}         => {bladder}   0.1583333 0.6551724  1.332554
+4  {high,urine}          => {bladder}   0.1583333 0.6333333  1.288136
+3  {urethra,urine}       => {bladder}   0.2416667 0.5800000  1.179661

@@ -1,0 +1,178 @@
+Apriori
+
+Parameter specification:
+ confidence minval smax arem  aval originalSupport support minlen maxlen            target   ext
+         NA    0.1    1 none FALSE            TRUE     0.1      1      8 frequent itemsets FALSE
+
+Algorithmic control:
+ filter tree heap memopt load sort verbose
+    0.1 TRUE TRUE  FALSE TRUE   -1    TRUE
+
+Absolute minimum support count: 12 
+
+set item appearances ...[0 item(s)] done [0.00s].
+set transactions ...[11 item(s), 120 transaction(s)] done [0.00s].
+sorting and recoding items ... [10 item(s)] done [0.00s].
+creating transaction tree ... done [0.00s].
+checking subsets of size 1 2 3 4 5 6 7 done [0.00s].
+writing ... [158 set(s)] done [0.00s].
+creating S4 object  ... done [0.00s].
+    items                                                    support  
+1   {urine}                                                  0.6666667
+2   {lumbar}                                                 0.5833333
+3   {bladder}                                                0.4916667
+4   {micturition}                                            0.4916667
+5   {urethra}                                                0.4166667
+6   {nephritis}                                              0.4166667
+7   {high}                                                   0.4166667
+8   {low}                                                    0.3333333
+9   {nausea}                                                 0.2416667
+10  {normal}                                                 0.1666667
+11  {lumbar,urine}                                           0.3333333
+12  {bladder,urine}                                          0.4916667
+13  {micturition,urine}                                      0.4083333
+14  {urethra,urine}                                          0.4166667
+15  {nephritis,urine}                                        0.3333333
+16  {high,urine}                                             0.2500000
+17  {low,urine}                                              0.2500000
+18  {nausea,urine}                                           0.1583333
+19  {bladder,lumbar}                                         0.1583333
+20  {lumbar,micturition}                                     0.2416667
+21  {lumbar,urethra}                                         0.2500000
+22  {lumbar,nephritis}                                       0.4166667
+23  {high,lumbar}                                            0.3333333
+24  {lumbar,nausea}                                          0.2416667
+25  {bladder,micturition}                                    0.4083333
+26  {bladder,urethra}                                        0.2416667
+27  {bladder,nephritis}                                      0.1583333
+28  {bladder,high}                                           0.1583333
+29  {bladder,low}                                            0.2500000
+30  {bladder,nausea}                                         0.1583333
+31  {micturition,urethra}                                    0.2416667
+32  {micturition,nephritis}                                  0.2416667
+33  {high,micturition}                                       0.2416667
+34  {low,micturition}                                        0.1666667
+35  {micturition,nausea}                                     0.2416667
+36  {nephritis,urethra}                                      0.2500000
+37  {high,urethra}                                           0.1666667
+38  {high,nephritis}                                         0.3333333
+39  {nausea,nephritis}                                       0.2416667
+40  {high,nausea}                                            0.2416667
+41  {bladder,lumbar,urine}                                   0.1583333
+42  {lumbar,micturition,urine}                               0.1583333
+43  {lumbar,urethra,urine}                                   0.2500000
+44  {lumbar,nephritis,urine}                                 0.3333333
+45  {high,lumbar,urine}                                      0.2500000
+46  {lumbar,nausea,urine}                                    0.1583333
+47  {bladder,micturition,urine}                              0.4083333
+48  {bladder,urethra,urine}                                  0.2416667
+49  {bladder,nephritis,urine}                                0.1583333
+50  {bladder,high,urine}                                     0.1583333
+51  {bladder,low,urine}                                      0.2500000
+52  {bladder,nausea,urine}                                   0.1583333
+53  {micturition,urethra,urine}                              0.2416667
+54  {micturition,nephritis,urine}                            0.1583333
+55  {high,micturition,urine}                                 0.1583333
+56  {low,micturition,urine}                                  0.1666667
+57  {micturition,nausea,urine}                               0.1583333
+58  {nephritis,urethra,urine}                                0.2500000
+59  {high,urethra,urine}                                     0.1666667
+60  {high,nephritis,urine}                                   0.2500000
+61  {nausea,nephritis,urine}                                 0.1583333
+62  {high,nausea,urine}                                      0.1583333
+63  {bladder,lumbar,micturition}                             0.1583333
+64  {bladder,lumbar,nephritis}                               0.1583333
+65  {bladder,high,lumbar}                                    0.1583333
+66  {bladder,lumbar,nausea}                                  0.1583333
+67  {lumbar,micturition,nephritis}                           0.2416667
+68  {high,lumbar,micturition}                                0.2416667
+69  {lumbar,micturition,nausea}                              0.2416667
+70  {lumbar,nephritis,urethra}                               0.2500000
+71  {high,lumbar,urethra}                                    0.1666667
+72  {high,lumbar,nephritis}                                  0.3333333
+73  {lumbar,nausea,nephritis}                                0.2416667
+74  {high,lumbar,nausea}                                     0.2416667
+75  {bladder,micturition,urethra}                            0.2416667
+76  {bladder,micturition,nephritis}                          0.1583333
+77  {bladder,high,micturition}                               0.1583333
+78  {bladder,low,micturition}                                0.1666667
+79  {bladder,micturition,nausea}                             0.1583333
+80  {bladder,high,nephritis}                                 0.1583333
+81  {bladder,nausea,nephritis}                               0.1583333
+82  {bladder,high,nausea}                                    0.1583333
+83  {high,micturition,nephritis}                             0.2416667
+84  {micturition,nausea,nephritis}                           0.2416667
+85  {high,micturition,nausea}                                0.2416667
+86  {high,nephritis,urethra}                                 0.1666667
+87  {high,nausea,nephritis}                                  0.2416667
+88  {bladder,lumbar,micturition,urine}                       0.1583333
+89  {bladder,lumbar,nephritis,urine}                         0.1583333
+90  {bladder,high,lumbar,urine}                              0.1583333
+91  {bladder,lumbar,nausea,urine}                            0.1583333
+92  {lumbar,micturition,nephritis,urine}                     0.1583333
+93  {high,lumbar,micturition,urine}                          0.1583333
+94  {lumbar,micturition,nausea,urine}                        0.1583333
+95  {lumbar,nephritis,urethra,urine}                         0.2500000
+96  {high,lumbar,urethra,urine}                              0.1666667
+97  {high,lumbar,nephritis,urine}                            0.2500000
+98  {lumbar,nausea,nephritis,urine}                          0.1583333
+99  {high,lumbar,nausea,urine}                               0.1583333
+100 {bladder,micturition,urethra,urine}                      0.2416667
+101 {bladder,micturition,nephritis,urine}                    0.1583333
+102 {bladder,high,micturition,urine}                         0.1583333
+103 {bladder,low,micturition,urine}                          0.1666667
+104 {bladder,micturition,nausea,urine}                       0.1583333
+105 {bladder,high,nephritis,urine}                           0.1583333
+106 {bladder,nausea,nephritis,urine}                         0.1583333
+107 {bladder,high,nausea,urine}                              0.1583333
+108 {high,micturition,nephritis,urine}                       0.1583333
+109 {micturition,nausea,nephritis,urine}                     0.1583333
+110 {high,micturition,nausea,urine}                          0.1583333
+111 {high,nephritis,urethra,urine}                           0.1666667
+112 {high,nausea,nephritis,urine}                            0.1583333
+113 {bladder,lumbar,micturition,nephritis}                   0.1583333
+114 {bladder,high,lumbar,micturition}                        0.1583333
+115 {bladder,lumbar,micturition,nausea}                      0.1583333
+116 {bladder,high,lumbar,nephritis}                          0.1583333
+117 {bladder,lumbar,nausea,nephritis}                        0.1583333
+118 {bladder,high,lumbar,nausea}                             0.1583333
+119 {high,lumbar,micturition,nephritis}                      0.2416667
+120 {lumbar,micturition,nausea,nephritis}                    0.2416667
+121 {high,lumbar,micturition,nausea}                         0.2416667
+122 {high,lumbar,nephritis,urethra}                          0.1666667
+123 {high,lumbar,nausea,nephritis}                           0.2416667
+124 {bladder,high,micturition,nephritis}                     0.1583333
+125 {bladder,micturition,nausea,nephritis}                   0.1583333
+126 {bladder,high,micturition,nausea}                        0.1583333
+127 {bladder,high,nausea,nephritis}                          0.1583333
+128 {high,micturition,nausea,nephritis}                      0.2416667
+129 {bladder,lumbar,micturition,nephritis,urine}             0.1583333
+130 {bladder,high,lumbar,micturition,urine}                  0.1583333
+131 {bladder,lumbar,micturition,nausea,urine}                0.1583333
+132 {bladder,high,lumbar,nephritis,urine}                    0.1583333
+133 {bladder,lumbar,nausea,nephritis,urine}                  0.1583333
+134 {bladder,high,lumbar,nausea,urine}                       0.1583333
+135 {high,lumbar,micturition,nephritis,urine}                0.1583333
+136 {lumbar,micturition,nausea,nephritis,urine}              0.1583333
+137 {high,lumbar,micturition,nausea,urine}                   0.1583333
+138 {high,lumbar,nephritis,urethra,urine}                    0.1666667
+139 {high,lumbar,nausea,nephritis,urine}                     0.1583333
+140 {bladder,high,micturition,nephritis,urine}               0.1583333
+141 {bladder,micturition,nausea,nephritis,urine}             0.1583333
+142 {bladder,high,micturition,nausea,urine}                  0.1583333
+143 {bladder,high,nausea,nephritis,urine}                    0.1583333
+144 {high,micturition,nausea,nephritis,urine}                0.1583333
+145 {bladder,high,lumbar,micturition,nephritis}              0.1583333
+146 {bladder,lumbar,micturition,nausea,nephritis}            0.1583333
+147 {bladder,high,lumbar,micturition,nausea}                 0.1583333
+148 {bladder,high,lumbar,nausea,nephritis}                   0.1583333
+149 {high,lumbar,micturition,nausea,nephritis}               0.2416667
+150 {bladder,high,micturition,nausea,nephritis}              0.1583333
+151 {bladder,high,lumbar,micturition,nephritis,urine}        0.1583333
+152 {bladder,lumbar,micturition,nausea,nephritis,urine}      0.1583333
+153 {bladder,high,lumbar,micturition,nausea,urine}           0.1583333
+154 {bladder,high,lumbar,nausea,nephritis,urine}             0.1583333
+155 {high,lumbar,micturition,nausea,nephritis,urine}         0.1583333
+156 {bladder,high,micturition,nausea,nephritis,urine}        0.1583333
+157 {bladder,high,lumbar,micturition,nausea,nephritis}       0.1583333
+158 {bladder,high,lumbar,micturition,nausea,nephritis,urine} 0.1583333
